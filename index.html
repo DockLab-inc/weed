@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Undangan Fauzan & Alya</title>
+  <title>Undangan Agus & Misa</title>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -16,7 +16,7 @@
     /* SECTION 1: COVER */
     .cover {
       height: 100vh;
-      background: url('cover-background.jpg') no-repeat center center;
+      background: url('cover-background.jpg.jpeg') no-repeat center center;
       background-size: cover;
       position: relative;
       color: white;
@@ -159,10 +159,10 @@
 <section class="cover">
   <div class="cover-content">
     <h1>UNDANGAN</h1>
-    <div class="names">Fauzan & Alya</div>
+    <div class="names">Agus & Misa</div>
     <div class="date">Sabtu, 21 Juni 2025</div>
     <div>
-      <input type="text" id="guestName" placeholder="Masukkan Nama Anda" />
+      <input type="text" id="guestName" placeholder="Ketik nama anda" />
       <br />
       <button onclick="openInvitation()">Buka Undangan</button>
     </div>
@@ -180,15 +180,15 @@
   </div>
 
   <div class="photo" style="text-align:center;">
-    <img src="foto-pengantin.jpg" alt="Foto Pengantin">
+    <img src="foto-pengantin.jpg.jpeg" alt="Foto Pengantin">
   </div>
 
   <div style="text-align:center; margin: 30px 0;">
-    <h2>Ahmad Fauzan Putra</h2>
+    <h2>AGUS RUSMANA</h2>
     <p>Putra dari Bapak Haris & Ibu Lestari</p>
     <h3>&</h3>
-    <h2>Alya Maharani</h2>
-    <p>Putri dari Bapak Rahmat & Ibu Sulastri</p>
+    <h2>MISA PUTRI TANJUNG</h2>
+    <p>Putri dari Bapak Rahmat Tanjung & Ibu Sulastri</p>
   </div>
 
   <div style="text-align:center;">
@@ -199,18 +199,23 @@
     <p>Sabtu, 21 Juni 2025<br>Pukul 11.00 - 14.00 WIB</p>
 
     <h3>Lokasi</h3>
-    <p>Gedung Graha Mandiri<br>Jl. Merpati Raya No. 45, Jakarta Selatan</p>
+    <p>Bale Kinasih<br>Jl. Selabintana, Warnasari, Kab. Sukabumi, Kabupaten Sukabumi, Jawa Barat</p>
   </div>
 
-  <div class="maps">
-    <h3>Denah Lokasi</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen></iframe>
+  <div id="map-container">
+    <iframe id="map-frame:center;"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.5330798194655!2d106.94239720000002!3d-6.8860527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6849567ede6d05%3A0x4bca363571345543!2sBale%20Kinasih!5e1!3m2!1sid!2sid!4v1747581457155!5m2!1sid!2sid" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade" 
+      aria-label="Peta lokasi Bale Kinasih"></iframe>
+    <button id="googleMapBtn" aria-label="Lihat di Google Maps">Lihat di Google Maps</button>
   </div>
 
   <div class="bank">
     <h3>Kado Pernikahan</h3>
-    <p>BCA - 1234567890 - a.n Ahmad Fauzan</p>
-    <p>Mandiri - 0987654321 - a.n Alya Maharani</p>
+    <p>BCA - 1234567890 - a.n Agus Rusmana</p>
+    <p>Mandiri - 0987654321 - a.n Misa Putri Tanjung</p>
   </div>
 
   <div class="comments">
@@ -224,9 +229,9 @@
   <div class="gallery">
     <h3>Galeri Pre-Wedding</h3>
     <div style="text-align:center">
-      <img src="prewed1.jpg" alt="Prewed 1">
-      <img src="prewed2.jpg" alt="Prewed 2">
-      <img src="prewed3.jpg" alt="Prewed 3">
+      <img src="prewed1.jpg.jpeg" alt="Prewed 1">
+      <img src="prewed2.jpg.jpeg" alt="Prewed 2">
+      <img src="prewed3.jpg.jpeg" alt="Prewed 3">
     </div>
   </div>
 
